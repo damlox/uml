@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.51" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="P99716d135e6e4e17b2abfc1b797a1839">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items>
+    <item id="di337436734473742462" cid="UC003" type="use-case" name="Modyfikowanie zdjęć" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:08:38">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <use-case />
+    </item>
+  </items>
+  <models>
+    <model id="p542822609502660855" name="Model 1" type="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/22/2013 15:01:50</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p959681989627853648" name="UseCaseDiagram1" order-index="1" show-nullability="true" show-attributes="true" show-operations="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/22/2013 15:01:50</creation-date>
+          <change-date>11/22/2013 15:11:16</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="di801229782843921255" cid="AC001" type="actor" name="użytkownik" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:02:59">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di802759023878260374" cid="AC002" type="actor" name="firma" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:03:38">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di521343601568022158" cid="AC008" type="actor" name="ADMIN" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:05:14">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di288214571176191690" cid="AC010" type="actor" name="Czas" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:05:54">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di478979984534949438" cid="UC001" type="use-case" name="Wysyła zdjęcia" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:06:22">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di190493725833982531" cid="UC002" type="use-case" name="Ogląda zdjęcia" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:07:39">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di894894869440524138" cid="UC004" type="use-case" name="Usuwanie zdjęcia" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:09:51">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di288905547804660002" cid="UC005" type="use-case" name="Rejestracja" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:10:34">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di802334439825759096" cid="UC006" type="use-case" name="Logowanie" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:10:45">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di917325897166517895" cid="UC007" type="use-case" name="Usuwanie konta" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:10:55">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di680097806792010915" cid="UC008" type="use-case" name="UseCase8" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P99716d135e6e4e17b2abfc1b797a1839" creation-date="11/22/2013 15:11:16">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di801229782843921255" iid="fc67260179f1471ea5e15e356d6c7e34" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:02:59" order-index="0" type="entity">
+            <layout ax="57" ay="10" awidth="99" aheight="120" x="57" y="10" width="99" height="120" angle="0" />
+          </item>
+          <item id="di802759023878260374" iid="72bf2adf352c4d5e9cdbe8db4c1477cf" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:03:38" order-index="1" type="entity">
+            <layout ax="57" ay="153" awidth="99" aheight="129" x="57" y="153" width="99" height="129" angle="0" />
+          </item>
+          <item id="di521343601568022158" iid="27708d89c83f4d07a96eb0f4cc3889ae" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:05:14" order-index="2" type="entity">
+            <layout ax="57" ay="297" awidth="99" aheight="102" x="57" y="297" width="99" height="102" angle="0" />
+          </item>
+          <item id="di288214571176191690" iid="ad147a3459364c73a4dfefc988f697e2" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:05:54" order-index="3" type="entity">
+            <layout ax="71" ay="414" awidth="73" aheight="110" x="71" y="414" width="73" height="110" angle="0" />
+          </item>
+          <item id="di478979984534949438" iid="be5508f28f774a1ba296b805805d0ba0" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:06:22" order-index="4" type="entity">
+            <layout ax="236" ay="10" awidth="82" aheight="51" x="236" y="10" width="82" height="27" angle="0" />
+            <use-case />
+          </item>
+          <item id="di190493725833982531" iid="be0ae17842c444cd8d827909bfff5aa6" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:07:39" order-index="5" type="entity">
+            <layout ax="236" ay="61" awidth="82" aheight="51" x="236" y="61" width="82" height="51" angle="0" />
+            <use-case />
+          </item>
+          <item id="di337436734473742462" iid="dc754021214f4552a857b8bd852b19b5" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:08:38" order-index="6" type="entity">
+            <layout ax="236" ay="114" awidth="82" aheight="51" x="236" y="114" width="82" height="51" angle="0" />
+            <use-case />
+          </item>
+          <item id="di894894869440524138" iid="3279620c2328447a8c3469fc49cb522c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:09:51" order-index="7" type="entity">
+            <layout ax="242" ay="170" awidth="77" aheight="48" x="242" y="170" width="77" height="27" angle="0" />
+            <use-case />
+          </item>
+          <item id="di288905547804660002" iid="9e891949a2994bf2af61d6695075c156" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:10:34" order-index="8" type="entity">
+            <layout ax="240" ay="233" awidth="85" aheight="53" x="240" y="233" width="85" height="26" angle="0" />
+            <use-case />
+          </item>
+          <item id="di802334439825759096" iid="9b1a210ee15e41c8b02540cfd7a187f7" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:10:45" order-index="9" type="entity">
+            <layout ax="244" ay="296" awidth="84" aheight="52" x="244" y="296" width="84" height="22" angle="0" />
+            <use-case />
+          </item>
+          <item id="di917325897166517895" iid="6bfb8792c87c43d789c95d146452e7c4" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:10:55" order-index="10" type="entity">
+            <layout ax="245" ay="357" awidth="93" aheight="58" x="245" y="357" width="93" height="17" angle="0" />
+            <use-case />
+          </item>
+          <item id="di680097806792010915" iid="26732be0377a4e71beb2fe9894ad1f29" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="11/22/2013 15:11:16" order-index="11" type="entity">
+            <layout ax="242" ay="420" awidth="95" aheight="59" x="242" y="420" width="95" height="12" angle="0" />
+            <use-case />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
